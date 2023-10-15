@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logi">
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginLeft="45dp"
+        android:alpha="1"
+        android:hint="123@456.com"
+
+
+
+
+        />
+    <EditText
+        android:id="@+id/psw"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="-320dp"
+        android:alpha="1"
+        android:inputType="numberPassword"
+        android:hint="123456"
+
+
+
+
+        />
+    <Button
+        android:id="@+id/pet_sign"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="-55dp"
+        android:textColor="#FFFFFF"
+        android:text="→"
+
+        android:background="@drawable/rounded_button"
+
+
+
+
+
+
+        />
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="-300dp"
+
+        android:background="@drawable/rounded_button"
+        android:text="Don't have an account? Sign Up."
+
+
+
+
+
+
+
+
+        />
+
+
+</LinearLayout>

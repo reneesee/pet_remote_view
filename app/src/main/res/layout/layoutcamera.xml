@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medi">
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="352dp"
+        android:layout_height="600dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+
+        />
+    <Button
+        android:id="@+id/rewind"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="-300dp"
+        android:background="@drawable/rewind"
+
+
+
+        />
+    <Button
+        android:id="@+id/forward"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/forward"
+
+
+
+        />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="-310dp"
+        android:background="@drawable/backbutton"
+        android:text="⬅"
+        android:textSize="40dp"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/speaker"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="-50dp"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:background="@drawable/speaker" />
+
+</LinearLayout>
