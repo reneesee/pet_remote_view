@@ -35,7 +35,7 @@ We welcome contributions from the community! You can contribute by:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
+This project is licensed under the MIT License.  
 
 ## Contact
 
